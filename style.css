@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Header */
+header {
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+.notification-text {
+  font-weight: bold;
+}
+
+/* Button and Links */
+.btn-primary {
+  background-color: #0056b3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #004085;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+/* Section Padding */
+section {
+  padding: 60px 0;
+}
+
+section.bg-light {
+  background-color: #f9f9f9;
+}
+
+/* Team Member Images */
+#team img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#team h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Gallery Images */
+#media img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects */
+.nav-item:hover {
+  color: #ff9900;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #f1c40f;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  section#projects .col-md-3,
+  section#team .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
